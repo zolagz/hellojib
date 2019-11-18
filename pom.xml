@@ -16,7 +16,6 @@
     <version>1.0-SNAPSHOT</version>
 
 
-
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -43,9 +42,13 @@
 
             <!--使用jib插件-->
             <plugin>
+                <!-- https://mvnrepository.com/artifact/com.google.cloud.tools/jib-maven-plugin -->
+
                 <groupId>com.google.cloud.tools</groupId>
                 <artifactId>jib-maven-plugin</artifactId>
-                <version>1.3.0</version>
+                <version>1.6.1</version>
+
+
                 <configuration>
                     <!--from节点用来设置镜像的基础镜像，相当于Docerkfile中的FROM关键字-->
                     <from>
