@@ -68,8 +68,9 @@
                         </jvmFlags>
                         <!--要暴露的端口-->
                         <ports>
-                            <port>8080</port>
+                            <port>8083</port>
                         </ports>
+                        <useCurrentTimestamp>true</useCurrentTimestamp>
                     </container>
                 </configuration>
             </plugin>
