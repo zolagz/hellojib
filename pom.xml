@@ -57,7 +57,8 @@
                     </from>
                     <to>
                         <!--镜像名称和tag，使用了mvn内置变量${project.version}，表示当前工程的version-->
-                        <image>registry.hub.docker.com/guanpeizuo/jibtest:${project.version}</image>
+<!--                        <image>guanpeizuo/alfred:jibtest:${project.version}</image>-->
+                        <image>guanpeizuo/alfred:jibtest</image>
                     </to>
                     <!--容器相关的属性-->
                     <container>
